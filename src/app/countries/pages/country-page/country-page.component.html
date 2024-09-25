@@ -34,11 +34,8 @@
       <h3>Traducciones</h3>
       <div class="d-flex flex-wrap">
 
-        <span class="badge bg-primary m-1">{{ country.translations['spa']?.common }}</span>
-        <span class="badge bg-primary m-1">{{ country.translations['kor']?.common }}</span>
-        <span class="badge bg-primary m-1">{{ country.translations['ara']?.common }}</span>
-        <span class="badge bg-primary m-1">{{ country.translations['ces']?.common }}</span>
-        <span class="badge bg-primary m-1">{{ country.translations['tur']?.common }}</span>
+        <span class="bg-primary m-1">{{ country.translations['spa'] ? country.translations['spa'].common : 'Traducción no disponible' }}</span>
+
       </div>
     </div>
   </div>
